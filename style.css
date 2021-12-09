@@ -1,0 +1,13 @@
+.menu {
+    color: black;
+    font-size: 1.3rem;
+}
+.header {
+    display: flex;
+    justify-content: space-between ;   
+}
+
+.advantages{
+    display: flex;
+    justify-content: space-between;
+}
