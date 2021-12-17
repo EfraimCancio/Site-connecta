@@ -29,6 +29,9 @@ body{
 .presentationSection{
     gap: 1.2rem;
 }
+.card {
+    min-height: 100%;
+}
 .presentationCard{
     height: 100%;
     margin: 3%;
@@ -69,6 +72,7 @@ body{
     font-weight: 600;
 }
 .catalogSection {
+    justify-content: center;
     text-align: center;
     gap: 1.2rem;
 }
@@ -96,4 +100,28 @@ body{
     justify-content: space-around;
     padding-left: 0;
     font-size: 4rem;
+}
+
+@media (min-width: 576px) {
+    .advantages {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .catalogSection {
+        gap: 0rem;
+        --bs-gutter-y: 1.5rem;
+    }
+
+}
+@media (min-width: 768px) {  
+    .presentationSection {
+        gap: 0rem;
+        bs-gutter-x: 0rem;
+    }
+    .aboutUsCard {
+        padding-right: 0rem;
+    }
+    .schedulingCard {
+        padding-left: 0rem;
+    }
 }
