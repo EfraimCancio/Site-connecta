@@ -20,6 +20,9 @@ body{
 .navButton {
     background-color: white;
 }
+.menuLink {
+    color: yellow;
+}
 .carouselHeader {
     color:aqua;
 }
@@ -51,7 +54,9 @@ body{
     color: white;
     margin-top: 1.5rem;    
 }
-
+.advantagesCard {
+    background-color: #d3d3d3;
+}
 .advantages {
     display: flex;
     justify-content: space-between;
